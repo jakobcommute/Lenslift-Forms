@@ -9,11 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   padding: 50px 20px;
   font-family: Montserrat, Arial;
   font-weight: 500;
-
 }
 
 h1 {
@@ -48,7 +47,7 @@ h1 {
   text-align: center;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .flex {
     flex-direction: column;
   }
@@ -60,7 +59,6 @@ h1 {
     margin-bottom: 20px;
   }
 }
-
 
 .logo-img {
   width: 100%;
@@ -94,6 +92,7 @@ h1 {
   display: flex;
   gap: 6px;
   margin: 0;
+  align-items: center;
 }
 
 .full-width {
@@ -133,7 +132,11 @@ form button {
 }
 
 form button:hover {
-  background: linear-gradient(40deg, rgba(16, 196, 199, 1) 0%, rgba(131, 58, 199, 1) 85%);
+  background: linear-gradient(
+    40deg,
+    rgba(16, 196, 199, 1) 0%,
+    rgba(131, 58, 199, 1) 85%
+  );
   scale: 1.05;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -147,8 +150,4 @@ a {
 .form-label {
   margin-left: 4px;
   accent-color: #833ac7;
-
 }
-
-
-
