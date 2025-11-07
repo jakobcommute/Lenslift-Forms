@@ -1,31 +1,27 @@
-✅ To-Do List App
+🪶 Lenslift Forms
 
-Eine moderne, responsive To-Do-Listen-Webanwendung, entwickelt mit HTML, CSS und JavaScript.
-Aufgaben können hinzugefügt, abgehakt und zwischen To-Do- und Erledigt-Liste verschoben werden.
-Alle Funktionen laufen vollständig im Browser – kein Backend erforderlich.
+Ein modernes, responsives Kontaktformular für Lenslift, ein Drohnenunternehmen für Film- und Werbeproduktionen.
+Anfragen werden sicher über Formspree.io gesendet und per E-Mail empfangen.
 
-🌐 Live: coming soon / lokal getestet
+🌐 Live: lenslift-kontaktformular.netlify.app￼
 
 ⸻
 
 ⚙️ Features
-	•	➕ Aufgaben hinzufügen und entfernen
-	•	☑️ Aufgaben mit Checkbox abhaken
-	•	🔄 Verschieben zwischen To-Do- und Erledigt-Liste
-	•	♻️ Automatisches Deaktivieren der Checkbox nach dem Verschieben
-	•	🎨 Sauberes, minimalistisches Design in Beige- und Rottönen
-	•	📱 Responsives Layout für alle Bildschirmgrößen
+	•	📩 Eingabefelder für Name, E-Mail & Nachricht mit DSGVO-Checkbox
+	•	💡 Integration über Formspree (kein eigenes Backend erforderlich)
+	•	🎨 Modernes, responsives Design in den Markenfarben Lila und Türkis
+	•	🌐 Bereitstellung über Netlify
 
 ⸻
 
 🛠️ Tech Stack
 
-HTML · CSS (Flexbox) · JavaScript
+HTML · CSS · Formspree · Netlify
 
 ⸻
 
 📚 Learnings
-	•	DOM-Manipulation und dynamische Elementerstellung
-	•	Event-Handling und Zustandsverwaltung mit Vanilla JS
+	•	Nutzung externer Form-APIs
 	•	Aufbau eines responsiven Layouts mit Flexbox
-	•	UI/UX-Design ohne Frameworks
+	•	Eigenständiges Hosting und Deployment über Netlify
